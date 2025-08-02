@@ -1,36 +1,0 @@
-Script started on Thu Jul 31 22:05:48 2025
-Restored session: Qui 31 Jul 2025 22:04:31 -03
-[1m[7m%[27m[1m[0m                                                                                                                                                                  ]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop]2;iagobarbosa@MacBook-Air-de-Iago]1;../git-workshop]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop\[0m[27m[24m[J[01;32m➜  [36mgit-workshop[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mgit-workshop[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[7mgit log --oneline[27m[17D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m-[27mo[27mn[27me[27ml[27mi[27mn[27me[?1l>[?2004l
-]2;git log --oneline]1;git[?1049h[?1h=[33mf4ba038[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m v5[m
-[33me50ebbc[m v4[m
-[33mf22f002[m v3[m
-[33m2a6e1f6[m v2[m
-[33ma8106d8[m v1[m
-[33mc3b315f[m Corrige v2 revertido[m
-[33m5b89074[m v2[m
-[33m787824d[m v1[m
-[7m(END)[27m[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                  ]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop]2;iagobarbosa@MacBook-Air-de-Iago]1;../git-workshop]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop\[0m[27m[24m[J[01;32m➜  [36mgit-workshop[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mgit log -1[27m[10D[27mg[27mi[27mt[27m [27ml[27mo[27mg[27m [27m-[27m1[?1l>[?2004l
-]2;git log -1]1;git[?1049h[?1h=[33mcommit f4ba0386e169aaf1c92c96cc0ac9b0b1168d4c28[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
-Author: Iago Barbosa <iago.barbosa@somapay.com.br>[m
-Date:   Thu Jul 31 22:04:25 2025 -0300[m
-[m
-    v5[m
-[7m(END)[27m[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                  ]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop]2;iagobarbosa@MacBook-Air-de-Iago]1;../git-workshop]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop\[0m[27m[24m[J[01;32m➜  [36mgit-workshop[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mgit config user.name[27m
-[7mgit config user.email[27m[K[A[8C[27mg[27mi[27mt[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27mu[27ms[27me[27mr[27m.[27mn[27ma[27mm[27me[1B[27mg[27mi[27mt[27m [27mc[27mo[27mn[27mf[27mi[27mg[27m [27mu[27ms[27me[27mr[27m.[27me[27mm[27ma[27mi[27ml[?1l>[?2004l
-]2;git config user.name; git config user.email]1;gitIago Barbosa
-iago.barbosa@somapay.com.br
-[1m[7m%[27m[1m[0m                                                                                                                                                                  ]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop]2;iagobarbosa@MacBook-Air-de-Iago]1;../git-workshop]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop\[0m[27m[24m[J[01;32m➜  [36mgit-workshop[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mgit diff HEAD~1 HEAD[27m[20D[27mg[27mi[27mt[27m [27md[27mi[27mf[27mf[27m [27mH[27mE[27mA[27mD[27m~[27m1[27m [27mH[27mE[27mA[27mD[?1l>[?2004l
-]2;git diff HEAD~1 HEAD]1;git[?1049h[?1h=[1mdiff --git a/README.md b/README.md[m[m
-[1mindex ed7ce12..4d73d61 100644[m[m
-[1m--- a/README.md[m[m
-[1m+++ b/README.md[m[m
-[36m@@ -2,3 +2,4 @@[m [mv1[m[m
- v2[m[m
- v3[m[m
- v4[m[m
-[32m+[m[32mv5[m[m
-[7m(END)[27m[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                                                                                                  ]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop]2;iagobarbosa@MacBook-Air-de-Iago]1;../git-workshop]7;file://MacBook-Air-de-Iago.local/Users/iagobarbosa/Documents/aula-git/git-workshop\[0m[27m[24m[J[01;32m➜  [36mgit-workshop[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
-]2;exit]1;exit
-Saving session...completed.
-
-Script done on Thu Jul 31 22:06:52 2025
