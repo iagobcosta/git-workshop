@@ -1,3 +1,4 @@
 linha base
 hotfix na nova funcionalidade
 novo componente
+corrige bug no botao
